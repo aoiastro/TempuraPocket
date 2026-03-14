@@ -1,6 +1,6 @@
 import itertools
 
-words = ['apple', 'cherry', 'date', 'banana', 'elderberry']
+fruits = ['apple', 'cherry', 'date', 'banana', 'elderberry']
 
-for perm in itertools.permutations(words):
+for perm in itertools.permutations(fruits):
     print(' '.join(perm))
